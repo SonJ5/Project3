@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Metropolis';
+    src: local('Metropolis Regular'), local('Metropolis-Regular'),
+        url('Metropolis-Regular.woff2') format('woff2'),
+        url('Metropolis-Regular.woff') format('woff'),
+        url('Metropolis-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
