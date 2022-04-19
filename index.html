@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap Icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="./assets/favicon/favicon.ico"
+      type="image/x-icon"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- BootStrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!-- Modal CSS -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <!-- Metropolis CSS -->
+    <link rel="stylesheet" href="./assets/fonts/Metropolis/style.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- Media CSS -->
+    <link rel="stylesheet" href="./assets/css/media.css" />
+    <title>Basant Chaudhary</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="navigation">
+        <div class="navigation-top d-flex justify-content-between">
+          <div class="navigation-top-left">
+            <a href="#"
+              ><h4><span class="bold">BASANT</span> CHAUDHARY</h4></a
+            >
+          </div>
+          <div class="navigation-top-right">
+            <button
+              onclick="document.getElementById('id01').style.display='block'"
+              class="p-0"
+              style="background-color: transparent; border: 0"
+            >
+              <img
+                src="./assets/images/menu.png"
+                alt="menu"
+                height="65px"
+                width="65px"
+              />
+            </button>
+            <div id="id01" class="w3-modal" style="background-color: #181c21">
+              <span
+                onclick="document.getElementById('id01').style.display='none'"
+                class="w3-button w3-display-topright"
+                >&times;</span
+              >
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div class="menu">
+                      <div class="menu_title">
+                        <div class="menu-title-link mb-2">
+                          <a
+                            style="
+                              font-size: 40px;
+                              font-weight: 600;
+                              color: #ffa000;
+                              text-decoration: underline;
+                            "
+                            >Home</a
+                          >
+                        </div>
+                        <div class="menu-title-link mb-2">
+                          <a
+                            style="
+                              font-size: 40px;
+                              font-weight: 600;
+                              color: #ffffff;
+                            "
+                            >About Basanta</a
+                          >
+                        </div>
+                        <div class="menu-title-link mb-2">
+                          <a
+                            style="
+                              font-size: 40px;
+                              font-weight: 600;
+                              color: #ffffff;
+                            "
+                            >Books</a
+                          >
+                        </div>
+                        <div class="menu-title-link mb-2">
+                          <a
+                            style="
+                              font-size: 40px;
+                              font-weight: 600;
+                              color: #ffffff;
+                            "
+                            >Music</a
+                          >
+                        </div>
+                        <div class="menu-title-link mb-2">
+                          <a
+                            style="
+                              font-size: 40px;
+                              font-weight: 600;
+                              color: #ffffff;
+                            "
+                            >Video</a
+                          >
+                        </div>
+                        <div class="menu-title-link mb-2">
+                          <a
+                            style="
+                              font-size: 40px;
+                              font-weight: 600;
+                              color: #ffffff;
+                            "
+                            >Podcast</a
+                          >
+                        </div>
+                        <div class="menu-title-link mb-2">
+                          <a
+                            style="
+                              font-size: 40px;
+                              font-weight: 600;
+                              color: #ffffff;
+                            "
+                            >Events</a
+                          >
+                        </div>
+                        <div class="menu-title-link">
+                          <a
+                            style="
+                              font-size: 40px;
+                              font-weight: 600;
+                              color: #ffffff;
+                            "
+                            >In Press</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div
+                      class="contact"
+                      style="padding: 20px 60px 20px 20px; background: #83142e"
+                    >
+                      <h3
+                        style="
+                          color: #ffffff;
+                          font-size: 30px;
+                          font-weight: 700;
+                        "
+                      >
+                        Contact Us
+                      </h3>
+                      <div class="detail mt-2">
+                        <div class="detail1 d-flex mb-3">
+                          <div class="icon">
+                            <i class="bi bi-geo-alt me-2"></i>
+                          </div>
+                          <div class="info">
+                            <p style="color: #ffa000; font-size: 15px">
+                              Address
+                            </p>
+                            <h4 style="font-size: 20px; margin-top: 0">
+                              Consulate Of The Kingdom Of Morocco To Nepal BLC
+                              Building, Thapathali, Kathmandu, Nepal
+                            </h4>
+                          </div>
+                        </div>
+                        <div class="detail1 d-flex mb-3">
+                          <div class="icon">
+                            <i class="bi bi-telephone me-2"></i>
+                          </div>
+                          <div class="info">
+                            <p style="color: #ffa000; font-size: 15px">
+                              Telephone
+                            </p>
+                            <h4 style="font-size: 20px; margin-top: 0">
+                              + 9771 4249906, 4219575
+                            </h4>
+                          </div>
+                        </div>
+                        <div class="detail1 d-flex mb-3">
+                          <div class="icon">
+                            <i class="bi bi-envelope me-2"></i>
+                          </div>
+                          <div class="info">
+                            <p style="color: #ffa000; font-size: 15px">Email</p>
+                            <h4 style="font-size: 20px; margin-top: 0">
+                              Consul.Morocco@blc.com.np
+                            </h4>
+                          </div>
+                        </div>
+                        <div class="detail1 d-flex mb-3">
+                          <div class="icon">
+                            <i class="bi bi-envelope me-2"></i>
+                          </div>
+                          <div class="info">
+                            <p style="color: #ffa000; font-size: 15px">Email</p>
+                            <h4 style="font-size: 20px; margin-top: 0">
+                              Consul.Morocco@blc.com.np
+                            </h4>
+                          </div>
+                        </div>
+                        <div class="detail1 d-flex mb-5">
+                          <div class="icon">
+                            <i class="bi bi-send me-2"></i>
+                          </div>
+                          <div class="info">
+                            <p style="color: #ffa000; font-size: 15px">Fax</p>
+                            <h4 style="font-size: 20px; margin-top: 0">
+                              +9771 4226293
+                            </h4>
+                          </div>
+                        </div>
+                        <h3
+                          style="
+                            color: #ffffff;
+                            font-size: 30px;
+                            font-weight: 700;
+                          "
+                        >
+                          Social Media
+                        </h3>
+                        <div class="media d-flex mb-3">
+                          <div class="fb d-flex me-5">
+                            <img src="./assets/images/fb.png" alt="fb" />
+                            <p class="ms-2">Basant Chaudhary</p>
+                          </div>
+                          <div
+                            class="twitter d-flex"
+                            style="white-space: nowrap"
+                          >
+                            <img
+                              src="./assets/images/twitter.png"
+                              alt="twitter"
+                            />
+                            <p class="ms-2">@basant_cg</p>
+                          </div>
+                        </div>
+                        <div class="media d-flex">
+                          <div class="fb d-flex me-5">
+                            <img src="./assets/images/insta.png" alt="insta" />
+                            <p class="ms-2">Basant.Chaudhary</p>
+                          </div>
+                          <div
+                            class="twitter d-flex"
+                            style="white-space: nowrap"
+                          >
+                            <img src="./assets/images/yt.png" alt="youtube" />
+                            <p class="ms-2">CG Entertainment</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div
+            class="navigation-bottom"
+            style="
+              background: url(./assets/images/circle.png);
+              background-repeat: no-repeat;
+              background-position: center;
+              position: relative;
+            "
+          >
+            <div class="row">
+              <div class="col-xl-6">
+                <div class="navigation-bottom-left">
+                  <div class="navigation-bottom-left_border"></div>
+                  <div class="navigation-bottom-left_img">
+                    <img
+                      src="./assets/images/head-img.PNG"
+                      alt="head"
+                      width="586px"
+                      height="751px"
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-6">
+                <div class="navigation-bottom-right">
+                  <div class="navigation-bottom-right_name">
+                    <h1>BASANT CHAUDHARY</h1>
+                  </div>
+                  <div class="navigation-bottom-right_desc">
+                    <p>
+                      I feel privileged and truly blessed for the family I was
+                      born into. 'Life lessons' that I received from my family
+                      are the coral moral values that I have built my lifeupon.
+                    </p>
+                  </div>
+                  <div class="navigation-bottom-right_icons">
+                    <div class="icon">
+                      <img src="./assets/images/book.png" alt="book" />
+                      <p>BOOKS</p>
+                    </div>
+                    <div class="icon">
+                      <img src="./assets/images/music.png" alt="" />
+                      <p>MUSIC</p>
+                    </div>
+                    <div class="icon">
+                      <img src="./assets/images/youtube.png" alt="" />
+                      <p>VIDEOS</p>
+                    </div>
+                    <div class="icon icon-last">
+                      <img src="./assets/images/podcast.png" alt="" />
+                      <p>PODCAST</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- End of Header -->
+    <!-- Background -->
+    <div class="container">
+      <div class="background">
+        <div class="row">
+          <div class="col-lg-7">
+            <div class="background-left">
+              <div class="background-left-text">
+                <p class="yellow">-Basanta Chaudhary</p>
+                <h4>
+                  I consider myself to be student of 'life' who is the best
+                  'teacher'
+                </h4>
+              </div>
+              <div class="background-left-img">
+                <img
+                  src="./assets/images/smile.png"
+                  alt=""
+                  height="649px"
+                  width="580px"
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="background-right">
+              <div class="background-right-img">
+                <img
+                  src="./assets/images/coat.PNG"
+                  alt=""
+                  height="632px"
+                  width="570px"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="background-right-text">
+                <p>
+                  I was born in Kathmandu in the year 1957. As a child, my world
+                  was built around my family, friends and school.'Life lessons'
+                  that I received from my family are the coral moral values that
+                  I have built my life upon. Stumbling awkwardly at first but
+                  with life as my teacher, my journey began.
+                </p>
+              </div>
+              <div class="background-right-btn">
+                <a href="#">READ MORE <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Books -->
+    <div class="books">
+      <div class="container">
+        <div
+          class="books-title d-flex justify-content-between align-items-center"
+        >
+          <div class="books-title-left">
+            <h3>MY LIST OF BOOKS</h3>
+          </div>
+          <div class="books-title-right">
+            <a href="#" style="text-decoration: none"
+              ><h4>
+                List all Books
+                <img src="./assets/images/arrow-right.png" alt="arrow-right" />
+              </h4>
+            </a>
+          </div>
+        </div>
+        <div class="books-body">
+          <div class="row">
+            <div class="books-body-card col-lg-3 col-md-6">
+              <div class="books-body-card-img">
+                <a href="#">
+                  <img
+                    src="./assets/images/book1.png"
+                    alt="book1"
+                    class="img-fluid"
+                /></a>
+              </div>
+              <div class="books-body-card-text">
+                <a href="#"><h5>Aasuwo Ke Shihae Se</h5></a>
+              </div>
+            </div>
+            <div class="books-body-card col-lg-3 col-md-6">
+              <div class="books-body-card-img">
+                <a href="#">
+                  <img
+                    src="./assets/images/book2.png"
+                    alt="book1"
+                    class="img-fluid"
+                /></a>
+              </div>
+              <div class="books-body-card-text">
+                <a href="#"><h5>Chahato Ke Saya Mhe</h5></a>
+              </div>
+            </div>
+            <div class="books-body-card col-lg-3 col-md-6">
+              <div class="books-body-card-img">
+                <a href="#">
+                  <img
+                    src="./assets/images/book1.png"
+                    alt="book1"
+                    class="img-fluid"
+                /></a>
+              </div>
+              <div class="books-body-card-text">
+                <a href="#"><h5>Aasuwo Ke Shihae Se</h5></a>
+              </div>
+            </div>
+            <div class="books-body-card col-lg-3 col-md-6">
+              <div class="books-body-card-img">
+                <a href="#">
+                  <img
+                    src="./assets/images/book3.png"
+                    alt="book3"
+                    class="img-fluid"
+                /></a>
+              </div>
+              <div class="books-body-card-text">
+                <a href="#"><h5>Anek Pal Aur Meh</h5></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Media Coverage -->
+    <div class="container">
+      <div class="media">
+        <div class="media-title repeat d-flex justify-content-between">
+          <div class="media-title-left">
+            <h4>NEWS</h4>
+            <h2>MEDIA COVERAGE</h2>
+          </div>
+          <div class="media-title-right">
+            <a href="#">
+              <h5>
+                Show all News
+                <img src="./assets/images/arrow-right.png" alt="" /></h5
+            ></a>
+          </div>
+        </div>
+        <div class="media-cards">
+          <div class="row">
+            <div class="media-cards-card col-lg-4 col-md-6">
+              <div class="image">
+                <a href="#">
+                  <img
+                    src="./assets/images/media1.png"
+                    alt="media1"
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+              <div class="desc">
+                <div class="desc-title">
+                  <a href="#">Basanta Chaudhary's Poetry In Tokyo</a>
+                </div>
+                <div class="desc-date">
+                  <p>
+                    <img
+                      src="./assets/images/calendar.png"
+                      alt="calendar"
+                      class="img-fluid"
+                    />
+                    25 September 2021
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="media-cards-card col-lg-4 col-md-6">
+              <div class="image">
+                <a href="#">
+                  <img
+                    src="./assets/images/media2.png"
+                    alt="media1"
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+              <div class="desc">
+                <div class="desc-title">
+                  <a href="#">Basanta Chaudhary's Poetry In Tokyo</a>
+                </div>
+                <div class="desc-date">
+                  <p>
+                    <img
+                      src="./assets/images/calendar.png"
+                      alt="calendar"
+                      class="img-fluid"
+                    />
+                    25 September 2021
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="media-cards-card col-lg-4 col-md-6">
+              <div class="image">
+                <a href="#">
+                  <img
+                    src="./assets/images/media3.png"
+                    alt="media1"
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+              <div class="desc">
+                <div class="desc-title">
+                  <a href="#">Basanta Chaudhary's Poetry In Tokyo</a>
+                </div>
+                <div class="desc-date">
+                  <p>
+                    <img
+                      src="./assets/images/calendar.png"
+                      alt="calendar"
+                      class="img-fluid"
+                    />
+                    25 September 2021
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="media-cards-card col-lg-4 col-md-6">
+              <div class="image">
+                <a href="#">
+                  <img
+                    src="./assets/images/media4.png"
+                    alt="media1"
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+              <div class="desc">
+                <div class="desc-title">
+                  <a href="#">Basanta Chaudhary's Poetry In Tokyo</a>
+                </div>
+                <div class="desc-date">
+                  <p>
+                    <img
+                      src="./assets/images/calendar.png"
+                      alt="calendar"
+                      class="img-fluid"
+                    />
+                    25 September 2021
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="media-cards-card col-lg-4 col-md-6">
+              <div class="image">
+                <a href="#">
+                  <img
+                    src="./assets/images/media5.png"
+                    alt="media1"
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+              <div class="desc">
+                <div class="desc-title">
+                  <a href="#">Basanta Chaudhary's Poetry In Tokyo</a>
+                </div>
+                <div class="desc-date">
+                  <p>
+                    <img
+                      src="./assets/images/calendar.png"
+                      alt="calendar"
+                      class="img-fluid"
+                    />
+                    25 September 2021
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="media-cards-card col-lg-4 col-md-6">
+              <div class="image">
+                <a href="#">
+                  <img
+                    src="./assets/images/media6.png"
+                    alt="media1"
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+              <div class="desc">
+                <div class="desc-title">
+                  <a href="#">Basanta Chaudhary's Poetry In Tokyo</a>
+                </div>
+                <div class="desc-date">
+                  <p>
+                    <img
+                      src="./assets/images/calendar.png"
+                      alt="calendar"
+                      class="img-fluid"
+                    />
+                    25 September 2021
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- TV Interviews -->
+    <div class="interview">
+      <div class="container">
+        <div class="interview-title repeat d-flex justify-content-between">
+          <div class="interview-title-left">
+            <h4>VIDEOS</h4>
+            <h2>TV INTERVIEWS</h2>
+          </div>
+          <div class="interview-title-right">
+            <a href="#"
+              ><h5>
+                Show all videos
+                <i class="bi bi-arrow-right"></i></h5
+            ></a>
+          </div>
+        </div>
+        <div class="interview-body">
+          <div class="row">
+            <div class="col-lg-6">
+              <div
+                class="interview-body-caption"
+                style="
+                  background: url(./assets/images/interview1.png) no-repeat;
+                "
+              >
+                <div class="text">
+                  <div class="date">
+                    <p>13 FEBRUARY 2021</p>
+                  </div>
+                  <div class="title">
+                    <h5>Basant Chaudhary takes over as new HCCN-Dean</h5>
+                  </div>
+                  <div class="more">
+                    <p>Read More</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div
+                class="interview-body-caption"
+                style="
+                  background: url(./assets/images/interview2.png) no-repeat;
+                "
+              >
+                <div class="text">
+                  <div class="date">
+                    <p>13 FEBRUARY 2021</p>
+                  </div>
+                  <div class="title">
+                    <h5>
+                      lg nepali film award basanta chaudhary the cinema times
+                    </h5>
+                  </div>
+                  <div class="more">
+                    <p>Read More</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Music -->
+    <div class="music">
+      <div class="container">
+        <div class="music-title repeat">
+          <h4>MUSIC</h4>
+          <h2>LATEST ALBUM</h2>
+        </div>
+        <div class="music-body">
+          <div class="row">
+            <div class="col-lg-7">
+              <div class="music-body-left">
+                <img
+                  src="./assets/images/cover.png"
+                  alt="cover"
+                  width="864px"
+                  height="537px"
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+            <div class="col-lg-5">
+              <div class="music-body-right">
+                <div class="music-body-right_top">
+                  <h4>Only Love</h4>
+                  <div class="music-body-right_top_cap d-flex">
+                    <p>Basantachaudhary</p>
+                    <ul class="d-flex">
+                      <li><p>2020</p></li>
+                      <li><p>6 Songs</p></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="music-body-right_bottom">
+                  <div
+                    class="pause d-flex align-items-center justify-content-between"
+                  >
+                    <div class="play-img">
+                      <img src="./assets/images/pause.png" alt="pause" />
+                    </div>
+                    <div class="title">
+                      <p>Chhayechha Basanta | Shreya Ghoshal</p>
+                      <input type="range" class="form-range" id="" />
+                    </div>
+                    <div class="time">
+                      <p>4:04</p>
+                    </div>
+                  </div>
+                  <div
+                    class="play d-flex align-items-center justify-content-between"
+                  >
+                    <div class="play-img">
+                      <img src="./assets/images/play.png" alt="play" />
+                    </div>
+                    <div class="title">
+                      <p>Chhayechha Basanta | Shreya Ghoshal</p>
+                    </div>
+                    <div class="time">
+                      <p>3:23</p>
+                    </div>
+                  </div>
+                  <div
+                    class="play d-flex align-items-center justify-content-between"
+                  >
+                    <div class="play-img">
+                      <img src="./assets/images/play.png" alt="play" />
+                    </div>
+                    <div class="title">
+                      <p>Chhayechha Basanta | Shreya Ghoshal</p>
+                    </div>
+                    <div class="time">
+                      <p>3:23</p>
+                    </div>
+                  </div>
+                  <div
+                    class="play d-flex align-items-center justify-content-between"
+                  >
+                    <div class="play-img">
+                      <img src="./assets/images/play.png" alt="play" />
+                    </div>
+                    <div class="title">
+                      <p>Chhayechha Basanta | Shreya Ghoshal</p>
+                    </div>
+                    <div class="time">
+                      <p>3:23</p>
+                    </div>
+                  </div>
+                  <div
+                    class="play d-flex align-items-center justify-content-between"
+                  >
+                    <div class="play-img">
+                      <img src="./assets/images/play.png" alt="play" />
+                    </div>
+                    <div class="title">
+                      <p>Chhayechha Basanta | Shreya Ghoshal</p>
+                    </div>
+                    <div class="time">
+                      <p>3:23</p>
+                    </div>
+                  </div>
+                  <div class="music-body-right_bottom_btn">
+                    <a href="#">VIEW MORE <i class="bi bi-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="footer-head-left">
+              <div class="footer-head-left_title">
+                <h2>
+                  Do you have questions and want to contact us. Call or visit
+                  us!
+                </h2>
+              </div>
+              <div class="footer-head-left_call">
+                <h3>
+                  <img src="./assets/images/call.png" alt="call" /> + 9771
+                  4249906, 4219575
+                </h3>
+              </div>
+              <div class="footer-head-left_desc">
+                <p>
+                  Consulate Of The Kingdom Of Morocco To Nepal BLC Building,
+                  Thapathali, Kathmandu, Nepal
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="footer-head-right">
+              <div class="footer-head-right_desc">
+                <h5>
+                  If you have any question, feel free to contact us! Write at
+                  our email!
+                </h5>
+              </div>
+              <div class="footer-head-right_btn">
+                <a href="#">GO TO EMAIL <i class="bi bi-arrow-right"></i></a>
+              </div>
+              <div class="footer-head-right_connected">
+                <p>Get Connected on</p>
+              </div>
+              <div class="footer-head-right_icons d-flex">
+                <div class="icon">
+                  <a href="#"><img src="./assets/images/fb.png" alt="fb" /></a>
+                </div>
+                <div class="icon">
+                  <a href="#"
+                    ><img src="./assets/images/linkedin.png" alt="linkedin"
+                  /></a>
+                </div>
+                <div class="icon">
+                  <a href="#"
+                    ><img src="./assets/images/twitter.png" alt="twitter"
+                  /></a>
+                </div>
+                <div class="icon">
+                  <a href="#"
+                    ><img src="./assets/images/insta.png" alt="insta"
+                  /></a>
+                </div>
+                <div class="icon">
+                  <a href="#"
+                    ><img src="./assets/images/yt.png" alt="youtube"
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-menu d-flex justify-content-center">
+        <div class="menu-items">
+          <a href="#">Home</a>
+        </div>
+        <div class="menu-items">
+          <a href="#">About</a>
+        </div>
+        <div class="menu-items">
+          <a href="#">books</a>
+        </div>
+        <div class="menu-items">
+          <a href="#">music</a>
+        </div>
+        <div class="menu-items">
+          <a href="#">Video</a>
+        </div>
+        <div class="menu-items">
+          <a href="#">Podcast</a>
+        </div>
+        <div class="menu-items">
+          <a href="#">Events</a>
+        </div>
+        <div class="menu-items">
+          <a href="#">In press</a>
+        </div>
+        <div class="menu-items">
+          <a href="#">Contact</a>
+        </div>
+      </div>
+      <div class="footer-copy">
+        <p>© Copyright 2021 Basant Chaudhary. All Rights Reserved.</p>
+      </div>
+    </footer>
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
